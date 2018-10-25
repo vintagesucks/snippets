@@ -1,0 +1,42 @@
+{
+    "phoneLandscapeViewportWidth": {
+        "prefix": "sw-phone",
+        "scope": "less",
+        "body": [
+          "@media screen and (min-width: @phoneLandscapeViewportWidth) {",
+          "\t$0",
+          "}"
+        ],
+        "description": "Phone (landscape) Viewport media query"
+    },
+    "tabletViewportWidth": {
+        "prefix": "sw-tablet",
+        "scope": "less",
+        "body": [
+          "@media screen and (min-width: @tabletViewportWidth) {",
+          "\t$0",
+          "}"
+        ],
+        "description": "Tablet Viewport media query"
+    },
+    "tabletLandscapeViewportWidth": {
+        "prefix": "sw-tablet-landscape",
+        "scope": "less",
+        "body": [
+          "@media screen and (min-width: @tabletLandscapeViewportWidth) {",
+          "\t$0",
+          "}"
+        ],
+        "description": "Tablet (landscape) Viewport media query"
+    },
+    "desktopViewportWidth": {
+        "prefix": "sw-desktop",
+        "scope": "less",
+        "body": [
+          "@media screen and (min-width: @desktopViewportWidth) {",
+          "\t$0",
+          "}"
+        ],
+        "description": "Desktop Viewport media query"
+    }
+}
