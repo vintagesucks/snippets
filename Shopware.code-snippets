@@ -46,5 +46,13 @@
             "{$$smarty.block.parent}"
         ],
         "description": "{$smarty.block.parent}"
+    },
+    "smartyDebug": {
+        "prefix": "sw-debug",
+        "scope": "smarty",
+        "body": [
+            "{debug}"
+        ],
+        "description": "{debug}"
     }
 }
