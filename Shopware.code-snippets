@@ -38,5 +38,13 @@
           "}"
         ],
         "description": "Desktop Viewport media query"
+    },
+    "smartyBlockParent": {
+        "prefix": "sw-parent",
+        "scope": "smarty",
+        "body": [
+            "{$$smarty.block.parent}"
+        ],
+        "description": "With the {$smarty.block.parent} the {block} content of the parent template can be inserted at any location of the child {block} content."
     }
 }
