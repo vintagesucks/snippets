@@ -3,5 +3,5 @@ Visual Studio Code snippets
 
 ## macOS
 ```
-/Users/<username>/Library/Application Support/Code/User/Snippets
+/Users/<username>/Library/Application Support/Code/User/snippets
 ```
