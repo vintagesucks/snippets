@@ -1,0 +1,58 @@
+{
+    "breakpointSmall": {
+        "prefix": "sw-sm",
+        "scope": "scss",
+        "body": [
+          "@include media-breakpoint-up(sm) {",
+          "\t$0",
+          "}"
+        ],
+        "description": "Small devices (landscape phones, 576px and up)"
+    },
+    "breakpointMedium": {
+        "prefix": "sw-md",
+        "scope": "scss",
+        "body": [
+          "@include media-breakpoint-up(md) {",
+          "\t$0",
+          "}"
+        ],
+        "description": "Medium devices (tablets, 768px and up)"
+    },
+    "breakpointLarge": {
+        "prefix": "sw-lg",
+        "scope": "scss",
+        "body": [
+          "@include media-breakpoint-up(lg) {",
+          "\t$0",
+          "}"
+        ],
+        "description": "Large devices (desktops, 992px and up)"
+    },
+    "breakpointExtraLarge": {
+        "prefix": "sw-xl",
+        "scope": "scss",
+        "body": [
+          "@include media-breakpoint-up(xl) {",
+          "\t$0",
+          "}"
+        ],
+        "description": "Extra large devices (large desktops, 1200px and up)"
+    },
+    "twigParent": {
+        "prefix": "sw-parent",
+        "scope": "twig",
+        "body": [
+            "{{ parent() }}"
+        ],
+        "description": "{{ parent() }}"
+    },
+    "twigDump": {
+        "prefix": "sw-dump",
+        "scope": "twig",
+        "body": [
+            "{{ dump($0) }}"
+        ],
+        "description": "{{ dump() }}"
+    }
+}
