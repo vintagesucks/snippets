@@ -1,0 +1,10 @@
+{
+    "twigParent": {
+        "prefix": "pimcore-input",
+        "scope": "twig",
+        "body": [
+            "{{ pimcore_input("$0", {'placeholder': '$1'}) }}"
+        ],
+        "description": "Input Editable"
+    },
+}
